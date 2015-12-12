@@ -1,0 +1,28 @@
+{
+  "name": "eniacserver",
+  "version": "1.0.0",
+  "description": "Analisar facial de criminos usando uma api externa para verificar a imagem.",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceresrohana/hackpuck-2015.git"
+  },
+  "keywords": [
+    "facial",
+    "foto",
+    "criminoso",
+    "analisador"
+  ],
+  "author": "Jackson, Luiz, Ceres, Cristina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ceresrohana/hackpuck-2015/issues"
+  },
+  "homepage": "https://github.com/ceresrohana/hackpuck-2015#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
