@@ -4,7 +4,7 @@ Projeto do HACKPUC-2015 // Grupo 11
 Servidor Nodejs
 
 <h3>
-Use o comando abaixo para instalar o express
+Der npm install para instalar as dependências
 </h3>
 
-- npm install express --save
+- https://www.mongodb.org/

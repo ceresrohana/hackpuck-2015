@@ -1,19 +1,18 @@
 var express = require('express');
+var app = express();
+/*
+var Mongoose = require('Mongoose');
 
-app.set('views', path.join(__dirname, '/views'));
-app.set('view engine', 'jade');
-app.use(bodyParser.urlencoded());
-app.use(bodyParser.json());
+var db = Mongoose.connection;
 
-app.route('/')
-  .get(function(req, res) {
+db.on('error', console.error);
+db.once('open', function() {
+  console.log('Conectado ao MongoDB.')
+  // Vamos adicionar nossos Esquemas, Modelos e consultas aqui
+});
 
-    });
-  })
-  .post(function(req, res) {
-
-    });
-  });
+Mongoose.connect('mongodb://localhost/test');
+*/
 
 app.listen(3000, function() {
   console.log('Rodando...');

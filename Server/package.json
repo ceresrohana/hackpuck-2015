@@ -17,12 +17,14 @@
     "analisador"
   ],
   "author": "Jackson, Luiz, Ceres, Cristina",
-  "license": "ISC",
+  "license": "Private",
   "bugs": {
     "url": "https://github.com/ceresrohana/hackpuck-2015/issues"
   },
   "homepage": "https://github.com/ceresrohana/hackpuck-2015#readme",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "mongodb": "^2.1.0",
+    "mongoose": "^4.0.6"
   }
 }
